@@ -1,5 +1,7 @@
 # Sonarleaks
 
+<img src="assets/logo.jpg" alt="drawing" width="100"/>
+
 ## Summary
 
 SonarCloud is a SAST SaaS platform built onto SonarQube.
