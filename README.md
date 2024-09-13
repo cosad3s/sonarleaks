@@ -9,8 +9,10 @@ SonarCloud is a SAST SaaS platform built onto SonarQube.
 During my DevSecOps journey, I recently discovered that [Sonarcloud](https://sonarcloud.io/) (From SonarSource) offers the possibility to explore public projects.
 After working on [Postleaks](https://github.com/cosad3s/postleaks) and popularity of some other similars projects (like [swaggerHole](https://github.com/Liodeus/swaggerHole)) related to public data on SaaS, the `Explore` button triggers my curiosity.
 
-I created this small tool to get basic infos about Sonarcloud projects from the `Explore` tab. Some of them **are from private source repository, or can be related to a company which misconfigured the repository visibility**.  
-**It becomes juicy when the results provides the source code AND the static analysis.**
+I created this small tool to get basic infos about Sonarcloud projects from the Explore tab.   
+
+**The results from SonarCloud are all marked as public projects, but appear to be related to private source repositories unrelated to SonarCloud. This could be the result of a misconfiguration on the customer side or something intentionally left public.**  
+*Reminder: paying SonarCloud customers can [change the visibility](https://docs.sonarsource.com/sonarcloud/administering-sonarcloud/managing-organizations/#allow-only-private-projects) of their projects at any time.*
 
 ![alt text](assets/meme.jpg)
 
